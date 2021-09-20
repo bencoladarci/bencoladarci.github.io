@@ -6,8 +6,8 @@ body {
 
 #nav-td { width: 200px; text-align:center;}
 
-.textDiv {
+texDiv {
   height: 200px;
-  width: 70%;
-  background-color: #F0FFFF;
+  width: 50%;
+  background-color: powderblue;
 }
