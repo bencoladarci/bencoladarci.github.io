@@ -8,8 +8,8 @@ body {
 
 #textDiv {
   float
-  margin-right: px;
-  margin-bottom: px;
+  margin-right: 700;
+  margin-left: 100;
   width: 30%;		
   clear: both
 }
