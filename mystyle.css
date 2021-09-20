@@ -1,7 +1,5 @@
 body { 
   background-color: #F0F8FF;
-  margin-left: 40px;
-  min-height: 100%;
 }
 
 #nav-table { width: 800px;}
@@ -9,6 +7,9 @@ body {
 #nav-td { width: 200px; text-align:center;}
 
 #textDiv {
-  background-color: white;
-  text-align: left;
+  float
+  margin-right: px;
+  margin-bottom: px;
+  width: 30%;		
+  clear: both
 }
