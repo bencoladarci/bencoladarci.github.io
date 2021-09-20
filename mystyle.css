@@ -9,7 +9,7 @@ body {
 #nav-td { width: 200px; text-align:center;}
 
 .textDiv {
-  border: 5px outset red;
+  border: 5px outset;
   background-color: lightblue;
-  text-align: center;
+  text-align: left;
 }
