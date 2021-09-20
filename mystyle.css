@@ -4,7 +4,7 @@ body { background-color: #F0F8FF;}
 
 #nav-td { width: 200px; text-align:center;}
 
-textDiv {
+.textDiv {
   height: 200px;
   width: 50%;
   background-color: powderblue;
