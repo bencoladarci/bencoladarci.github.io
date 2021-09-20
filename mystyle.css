@@ -8,7 +8,7 @@ body {
 
 #nav-td { width: 200px; text-align:center;}
 
-.myDiv {
+.textDiv {
   border: 5px outset red;
   background-color: lightblue;
   text-align: center;
