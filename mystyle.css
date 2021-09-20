@@ -1,7 +1,10 @@
-body { background-color: #F0F8FF;}
+body { 
+  background-color: #F0F8FF;
+  margin-left: 40px;
+  min-height: 100%;
+}
 
 #nav-table { width: 800px;}
 
 #nav-td { width: 200px; text-align:center;}
 
-{ min-height: 100%;}
