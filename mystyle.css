@@ -1,7 +1,24 @@
-body { background-color: #F0F8FF;}
+body { 
+  background-color: #F0F8FF;
+}
 
-#nav-table { width: 800px;}
 
-#nav-td { width: 200px; text-align:center;}
+#nav-table { 
+  width: 800px;
+}
 
-#textDiv { width: 50%; background-color: blue;}
+
+#nav-td { 
+  width: 200px; text-align:center;
+}
+
+div {
+  width: 50%; background-color: blue;
+}
+#textDiv { 
+  width: 50%; background-color: blue;
+}
+
+#aboutmepics {
+  text-align: center;
+}
