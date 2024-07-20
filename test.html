@@ -1,31 +1,98 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="mystyle.css">
-        <title>Ben's Programming Portfolio</title>       
-    </head>
-    
-    <body>
-        <img src="myBanner.jpg"> <br>
-        <table id="nav-table">
-            <tr>
-                <td id="nav-id"><a href="http://bencoladarci.github.io/index.html"><img src="home.png"></a></td>                                                                      
-                <td id="nav-id"><a href="javascripts.html"><img src="javascripts.png"></a></td>                                                    
-                <td id="nav-id"><a href="aboutme.html"><img src="aboutme.png"></a></td>
-                <td id="nav-id"><a href="apps.html"><img src="apps.png"></a></td>
-            </tr>
-        </table> 
-        <div class="textDiv">
-            <style>
-                textDiv {
-                    width: 50%;
-                    background-color: blue;
-                }
-            </style>
-            <h1>Ben's Programming Portfolio</h2>
-            <p>This webpage has a collection of programs that I wrote in my CSC106 course at the University of Rhode Island. This website was coded and created using HTML programming language through GitHub. On this website, you will find various information relating to myself, projects, as well as this homepage.</p>
-        </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben's Programming Portfolio</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
         
-    </body>
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        nav {
+            background: #444;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 10px 20px;
+        }
+
+        nav ul li a img {
+            vertical-align: middle;
+            height: 24px;
+            width: 24px;
+        }
+
+        nav ul li a:hover {
+            background: #555;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h1 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .content p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="myBanner.jpg" alt="Banner Image">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="http://bencoladarci.github.io/index.html"><img src="home.png" alt="Home"> Home</a></li>
+            <li><a href="javascripts.html"><img src="javascripts.png" alt="JavaScripts"> JavaScripts</a></li>
+            <li><a href="aboutme.html"><img src="aboutme.png" alt="About Me"> About Me</a></li>
+            <li><a href="apps.html"><img src="apps.png" alt="Apps"> Apps</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>Ben's Programming Portfolio</h1>
+        <p>This webpage has a collection of programs that I wrote in my CSC106 course at the University of Rhode Island. This website was coded and created using HTML programming language through GitHub. On this website, you will find various information relating to myself, projects, as well as this homepage.</p>
+    </div>
+</body>
 </html>
